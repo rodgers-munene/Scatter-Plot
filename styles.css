@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+#title{
+    position: absolute;
+    top: 40px;
+    font-size: 32px;
+}
+#title2{
+    position: absolute;
+    top: 80px;
+    font-size: 24px;
+}
+#legend{
+    position: absolute;
+    right: 200px;
+}
+#legend div:first-child{
+    width: 20px;
+    height: 20px;
+}
+#legend div:last-child{
+    width: 20px;
+    height: 20px;
+}
+#tooltip{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    font-size: 12px;
+    border-radius: 8px;
+}
